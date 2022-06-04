@@ -32,7 +32,6 @@ namespace Generic
                     return thirdValue;
                 }
                 return firstValue;
-          }
-          
+          }    
     }
 }
