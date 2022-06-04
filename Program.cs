@@ -10,8 +10,13 @@ namespace Generic
     {
         public static void Main(string[] args)
         {
+            
             Console.WriteLine("Welcome to the Program");
-  
+
+            FindMaximum findMaximum = new FindMaximum();
+            Console.WriteLine(findMaximum.MaximumIntegerNum(98, 150, 88));
+     
+
         }
     }
 }
